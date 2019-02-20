@@ -1,0 +1,6 @@
+framework module Pods_GitAllStars {
+  umbrella header "Pods-GitAllStars-umbrella.h"
+
+  export *
+  module * { export * }
+}
