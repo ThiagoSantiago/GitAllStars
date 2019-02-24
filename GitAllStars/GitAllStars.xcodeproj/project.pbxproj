@@ -92,9 +92,9 @@
 			isa = PBXGroup;
 			children = (
 				1803402B221DD1850071D7BD /* Common */,
+				18034023221D82D00071D7BD /* Network */,
 				18034026221D83400071D7BD /* Router */,
 				18034025221D83060071D7BD /* Scenes */,
-				18034023221D82D00071D7BD /* Network */,
 				18034003221D81870071D7BD /* AppDelegate.swift */,
 				1803400A221D81890071D7BD /* Assets.xcassets */,
 				1803400C221D81890071D7BD /* LaunchScreen.storyboard */,
@@ -115,6 +115,7 @@
 		18034023221D82D00071D7BD /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				18FAE98C22223B0900636364 /* Workers */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -122,8 +123,9 @@
 		18034024221D82DC0071D7BD /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				187BC936221F0130006EACD5 /* Cells */,
-				18034029221D8A180071D7BD /* HomeViewController.swift */,
+				18FAE98B22223ABC00636364 /* Interactor */,
+				18FAE98A22223AB300636364 /* Presenter */,
+				18FAE98922223A5500636364 /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -157,6 +159,36 @@
 				187BC937221F01A4006EACD5 /* HomeTableViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		18FAE98922223A5500636364 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				187BC936221F0130006EACD5 /* Cells */,
+				18034029221D8A180071D7BD /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18FAE98A22223AB300636364 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		18FAE98B22223ABC00636364 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		18FAE98C22223B0900636364 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Workers;
 			sourceTree = "<group>";
 		};
 		812BBF471AA2A19686CE68AE /* Frameworks */ = {

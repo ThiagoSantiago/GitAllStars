@@ -14,6 +14,8 @@ class GitAllStarsRouter {
     var navigation: UINavigationController = UINavigationController()
     
     func routeToHome() {
+//        let presenter = MyPresenter()
+//        let interactor = MyInteractor()
         let viewController = HomeViewController()
         self.navigation.pushViewController(viewController, animated: false)
     }
